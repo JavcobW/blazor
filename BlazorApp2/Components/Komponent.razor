@@ -1,0 +1,20 @@
+@if (Kolor == "yellow")
+{
+    <h1 style="color:yellow">Jakub Włodarczyk</h1>
+}
+else if (Kolor == "red")
+{
+    <h1 style="color:red">Jakub Włodarczyk</h1>
+}
+else
+{
+    <h1>Jakub Włodarczyk</h1>
+}
+
+
+@code {
+
+    [Parameter]
+    public string? Kolor { get; set; }
+
+}
